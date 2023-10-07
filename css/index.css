@@ -6,15 +6,16 @@
 }
 
 .page_lander{
-	background-color:rgba(86, 86, 238, 0.547);
+	background-image:url(/images/page_lander.jpeg);
     height:100vh;
     width:100%;
     display: flex;
+    background-size: cover;
 }
 
 .page_lander > span{
     margin: auto auto;
-    background-color: rgba(255, 255, 255, 0.664);
+    background-color: rgba(255, 255, 255, 0.786);
     font-size: 3.5em;
     font-family: 'Courier New', monospace;
     padding: 0.5em;
