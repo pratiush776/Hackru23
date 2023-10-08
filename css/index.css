@@ -5,6 +5,11 @@
     border: 0;
 }
 
+body {
+    height: 100%;
+    width: 100%;
+}
+
 .page_lander{
 	background-image:url(/images/page_lander.jpeg);
     height:100vh;
