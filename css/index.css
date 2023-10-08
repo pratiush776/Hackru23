@@ -15,7 +15,7 @@
     text-decoration: none;
 }
 
-.page_lander > span{
+.page_lander > a{
     margin: auto auto;
     background-color: rgba(255, 255, 255, 0.786);
     font-size: 3.5em;
@@ -23,6 +23,7 @@
     padding: 0.5em;
     border-radius: 2em;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 .page_lander > span:hover{
