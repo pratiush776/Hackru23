@@ -20,6 +20,7 @@ html {
     color: black;
     background-color: #dbdbdb;
     font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 1em;
     
 }
 
@@ -84,3 +85,6 @@ html {
     width: 80vw;
 }
 
+.text-box p{
+    margin-bottom: 1em;
+}
