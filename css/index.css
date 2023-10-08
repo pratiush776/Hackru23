@@ -16,6 +16,7 @@
 }
 
 .page_lander > a{
+    color: coral;
     margin: auto auto;
     background-color: rgba(255, 255, 255, 0.786);
     font-size: 3.5em;
