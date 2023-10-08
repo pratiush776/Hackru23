@@ -1,18 +1,20 @@
 .login{
     position: relative;
+    padding: 200px 0px 50px 0px;
     left: 50%;
     top: auto;
     transform: translate(-50%,0);
-    width: 50%;
-    height: 60vh;
+    width: 50vh;
+    height: 90vh;
     background: rgb(255, 255, 255);
     border-radius: 15px;
+    font-family: 'Courier New', monospace;
 }
 
 .login h1{
-    text-align: center;
+    text-align:center;
     padding: 0 0 25px 0;
-    border-bottom: 2px solid rgb(150, 85, 85);
+    border-bottom: 2px solid #020303;
 }
 
 .login form{
