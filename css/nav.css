@@ -12,6 +12,7 @@
     left: 50%;
     transform: translate(-50%,0%);
     box-sizing: border-box;
+    z-index: 2;
 }
 
 .container > ul > li{

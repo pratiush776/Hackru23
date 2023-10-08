@@ -8,6 +8,10 @@ html {
     box-sizing: border-box;
 }
 
+.row p{
+    margin: 10px 0;
+}
+
 
 .about-section {
     position: relative;
@@ -17,6 +21,21 @@ html {
     background-color: #dbdbdb;
     font-family: 'Courier New', Courier, monospace;
     
+}
+
+.column .card .founder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.column > .card > .founder > .title{
+    height: 2em;
+}
+
+.column .card{
+    height: 5em;
 }
 
 .title {
