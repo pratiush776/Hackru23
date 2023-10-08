@@ -6,17 +6,13 @@
     scroll-behavior: smooth;
 }
 
-body {
-    height: 100%;
-    width: 100%;
-}
-
 .page_lander{
 	background-image:url(/images/page_lander.jpeg);
     height:100vh;
     width:100%;
     display: flex;
     background-size: cover;
+    text-decoration: none;
 }
 
 .page_lander > span{
