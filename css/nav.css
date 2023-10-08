@@ -1,45 +1,48 @@
+.container > * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 .container{
+    position: fixed;
     display: flex;
-    padding: 2% 0;
     justify-content: space-between;
     align-items: center;
+    left: 50%;
+    transform: translate(-50%,0%);
+    box-sizing: border-box;
 }
 
-
-.logo{
-    width: 150px;
-}
-
-
-nav ul li{
+.container > ul > li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 1em 2em;
 }
 
 
-nav ul li a{
+.container > ul > li > a{
     text-decoration: none;
-    color: #fff;
+    color: #111111dd;
     font-weight:none;
-    font-size: 18px;
+    font-size: 1em;
     position: relative;
 }
 
 
-nav ul li a::after{
+.container > ul > li > a::after{
     content: '';
     width: 0%;
-    height: 2px;
-    background:green;
+    height: 0.2em;
+    background:rgba(68, 68, 68, 0.586);
     position: absolute;
     left: 0;
-    bottom: -5px;
-    transition:0.5s;
+    bottom: -0.5em;
+    transition:0.3s;
 }
 
 
-nav ul li a:hover::after{
+.container > ul > li > a:hover::after{
     width: 100%;
 }
 

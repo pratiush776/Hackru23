@@ -1,0 +1,14 @@
+{   
+    "easy" : [
+    {
+    "Question":"Full form of RAM",
+    "Ans":"Random Access Memory",
+    "options":["Read After Memory","Random Alternate Motion","Rotation Access of Memory"]
+    },
+    {
+        "Question":"Hard disk is an example of _ .",
+        "Ans":"Non-volatile Memory",
+        "options" : ["Volatile Memory","Firmware","Cloud Storage"]
+    }
+]
+}

@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.signup{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,0);
+    width: 50vh;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-family: 'Courier New', monospace;
+
+}
+
+.signup h1{
+    text-align:center;
+    padding: 0 0 25px 0;
+    border-bottom: 2px solid #020303;
+}
+
+
+.signup form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.signup .txtf{
+    position: relative;
+    border-bottom: 2px solid #b7b5b5;
+    margin: 25px 0;
+} 
+
+.txtf input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txtf label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .6s;
+}
+
+.txtf span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: black;
+    transition: .4s;
+}
+
+.txtf input:focus ~ label,
+.txtf input:valid ~ label{
+    top: -5px;
+    color: black;
+}
+
+
+.txtf input:focus ~ span::before,
+.txtf input:valid ~ span::before{
+    width: 100%;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-color: black;
+    background: white;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    border-color: black;
+    background: black;
+    color: white;
+    transition: .6s;
+}

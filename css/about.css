@@ -1,0 +1,67 @@
+
+body {
+    font-family: Times New Roman, Helvetica, sans-serif;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+.about-section {
+    position: relative;
+    height: 70vh;
+    text-align: justify;
+    color: black;
+    background-color: #dbdbdb;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    background-color: #f3b750;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #ae8238;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+.row{
+    display: flex;
+    margin: 1em;
+    justify-content: space-around;
+    height: 20vh;
+}
+.column {
+    float: left;
+    margin: 1em;
+}
+
+.text-box {
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+    margin: auto;
+    padding: 1em;
+    width: 80vw;
+}
+

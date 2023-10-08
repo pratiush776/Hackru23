@@ -1,27 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Create a Quiz</title>
-<link rel="stylesheet" href="css/index.css">
-<link rel="stylesheet" href="css/nav.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Quiz</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/login.css">
+ 
+
 </head>
+
 <body>
-<nav class="conatiner">
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#news">Contact</a></li>
-        <li><a href="#contact">Log In</a></li>
-        <li><a href="#contact">Sign Up</a></li>
-    </ul>
-</nav>
+    <nav class="container">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#news">Contact</a></li>
+        </ul>
+        |
+        <ul>
+            <li><a href="#login">Log In</a></li>
+            <li><a href="/pages/signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
 
 
-<div class="page_lander">
-    <span> Create a <span style="color: lightcoral;">Quiz</span></span>
+    <div class="page_lander">
+        <span> Create a <span style="color: lightcoral;">Quiz</span></span>
+    </div>
+<!----------------------------------Login section------------------------------------->
+    <div id="login" class="login">
+        <h1>Login</h1>
+        <form method="post">
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label>Username</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" required>
+                <span></span>
+                <label>Password</label>
+            </div>
+            <div class="forgetpass">Forget Password</div>
+            <input type="submit" value="Login">
+            <div class="signup_link">
+                Not a member? <a href="/pages/signup.html">SignUp</a>
+            </div>
+        </form>
+    </div>
+    <!-------------------------------- About ---------------------------------------------->
+    <div class="about-section">
+        <div class="text-box">
+
+            <h1 style="text-align: center; margin: 1em; transform: translate(0, -0.75em); font-size: 48px;">About us</h1>
+
+        <p>This website is specifically designed to cater to the needs of both educators and students within the
+            academic environment. It provides an intuitive and user-friendly platform for teachers, allowing them to
+            create customized quizzes tailored to varying levels of difficulty, such as hard, intermediate, and easy.
+            This functionality is particularly valuable as it streamlines the process of generating questions for
+            specific chapters, ultimately saving teachers valuable time and effort.</p>
+        <p>
+            
+            Teachers have the ability to select and refine questions to their preferences. These selected questions are
+            conveniently stored in an index, similar to a shopping cart, which can be readily accessed and utilized for
+            examinations. This system eliminates the need for teachers to repeatedly use the same set of questions in
+            every semester, ensuring a fresh and dynamic assessment experience for students.</p>
+
+        <p>
+            
+            Likewise, students benefit from this platform by gaining access to chapter-specific quizzes that aid in their
+            preparation for upcoming examinations. The system provides instant feedback, clearly indicating both correct
+            and incorrect answers, along with detailed explanations. This approach encourages a deeper understanding of
+            the material, fostering a learning experience that goes beyond mere memorization.</p>
+
+        <p>
+            
+            Importantly, the questions presented to students are not identical to those suggested to teachers, preventing
+            any potential cheating or rote memorization. Instead, students are exposed to similar questions that
+            encourage them to engage with the subject matter in greater depth. This dual-pronged approach ensures that
+            both educators and students can optimize their learning and teaching experiences while maintaining the
+            integrity of the assessment process.</p>
+    </div>
+</div>
+
+<h2 style="text-align:center; margin: 2em;;">
+    <p style="font-size: 2em;">Team
+    </p>
+    </h2>
+
+    
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <!-- <div class="container"> -->
+            <div>
+                <h2>Suman Bista</h2>
+                <p class="title">Founder, senior web developer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>sbista@caldwell.edu</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <!-- <div class="container"> -->
+            <div>
+                <h2>Niraj Tamang</h2>
+                <p class="title">Founder, senior web developer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>ntamang@caldwell.edu</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <!-- <div class="container"> -->
+            <div>
+                <h2>Pratiush Karki</h2>
+                <p class="title">Founder, Senior web developer, Designer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>Pkarki1@caldwell.edu</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <div>
+                <h2>Suman Shah</h2>
+                <p class="title">Founder, fullstack web developer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>sshah@caldwell.edu</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 </div>
 
 </body>
+
 </html>
