@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Quiz</title>
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/ques_list_maker.css">
+    <link rel="stylesheet" href="/css/question.css">
+</head>
+<body>
+    <nav class="container">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#news">Contact</a></li>
+        </ul>
+        |
+        <ul>
+            <li><a href="/index.html">Log In</a></li>
+            <li><a href="/pages/signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+    <!------------------------------------------------------------>
+<div class="no_of_ques">
+    <p>Enter number of Questions to Generate :</p>
+    <input type="number" id="no-of-ques">
+    <button class="generate-btn" id="generate-btn">Generate</button>
+</div>
+<div class="question_container">
+
+</div>
+<div>
+    <button id="next-btn">Next</button>
+</div>
+    <script src="/js/question_list_maker.js"></script>
+</body>
+</html>
